@@ -10,7 +10,7 @@ export const AllRouters = () => {
                 <Route path="/movie/:id" element={<MovieDetail />} />
                 <Route path="/movies/popular" element={<MovieList />} />
                 <Route path="/movies/top" element={<MovieList />} />
-                <Route path="/movies/upcomming" element={<MovieList />} />
+                <Route path="/movies/upcoming" element={<MovieList />} />
                 <Route path='/search' element={<Search />} />
                 <Route path="*" element={<PageNotFound />} />
 
