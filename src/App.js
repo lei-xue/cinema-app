@@ -1,11 +1,9 @@
 import './App.css';
-
+import { AllRouters } from './routers/AllRouters';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-      </header>
+      <AllRouters />
     </div>
   );
 }
