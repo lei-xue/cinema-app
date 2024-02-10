@@ -13,21 +13,21 @@ export const Footer = () => {
                         </Link>
                         <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                             <li>
-                                <Link to="#" target="_blank" className="hover:underline me-4 md:me-6">Instagram</Link>
+                                <Link to="/" target="_blank" className="hover:underline me-4 md:me-6">Instagram</Link>
                             </li>
                             <li>
-                                <Link to="#" target="_blank" className="hover:underline me-4 md:me-6">Github</Link>
+                                <Link to="/" target="_blank" className="hover:underline me-4 md:me-6">Github</Link>
                             </li>
                             <li>
-                                <Link to="#" target="_blank" className="hover:underline me-4 md:me-6">Facebook</Link>
+                                <Link to="/" target="_blank" className="hover:underline me-4 md:me-6">Facebook</Link>
                             </li>
                             <li>
-                                <Link to="#" target="_blank" className="hover:underline">Contact</Link>
+                                <Link to="/" target="_blank" className="hover:underline">Contact</Link>
                             </li>
                         </ul>
                     </div>
                     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-                    <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <Link to="/" className="hover:underline">Flowbite™</Link>. All Rights Reserved.</span>
+                    <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <Link to="/" className="hover:underline">Cinamate™</Link>. All Rights Reserved.</span>
                 </div>
             </footer>
 
