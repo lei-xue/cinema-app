@@ -16,7 +16,7 @@ export const Footer = () => {
                                 <Link to="/" target="_blank" className="hover:underline me-4 md:me-6">Instagram</Link>
                             </li>
                             <li>
-                                <Link to="/" target="_blank" className="hover:underline me-4 md:me-6">Github</Link>
+                                <Link to="https://github.com/lei-xue/cinema-app" target="_blank" className="hover:underline me-4 md:me-6">Github</Link>
                             </li>
                             <li>
                                 <Link to="/" target="_blank" className="hover:underline me-4 md:me-6">Facebook</Link>

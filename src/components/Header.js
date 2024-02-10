@@ -37,6 +37,7 @@ export const Header = () => {
                     <Link to="/" className="flex items-center">
                         <img src={Logo} className="mr-3 h-6 sm:h-9" alt="Cinemate Logo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cinemate</span>
+                        <span className="dark:text-white ml-4">Lei Xue</span>
                     </Link>
 
                     <div id="mobile-nav" className="flex md:order-2">
