@@ -9,8 +9,9 @@ export const MovieList = ({ api, title }) => {
     const { data: movies } = useFetch(api);
 
     useEffect(() => {
-        document.title = { title };
-    })
+        document.title = `Cinemate - ${title}`;
+    }, [title]);
+
 
 
     return (
